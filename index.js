@@ -30,6 +30,6 @@ app.post("/update", function (req, res) {
 
 const port = process.env.PORT || 5050;
 
-app.listen(5000, function(){
+app.listen(5050, function(){
     console.log("Listening on localhost port 5000");
 });
